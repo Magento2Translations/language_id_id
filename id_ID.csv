@@ -44,8 +44,6 @@ State/Province,Provinsi,module,Magento_Checkout
 "Page not found.","Halaman tidak ditemukan.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Setuju dengan syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Sesuatu yang tidak beres saat memproses pesanan Anda. Harap coba lagi nanti.",module,Magento_Checkout
-"Payment Page","Halaman pembayaran",module,Magento_Checkout
-"We found an invalid request for adding product to quote.","Kami menemukan permintaan yang tidak valid untuk menambahkan produk untuk mengutip.",module,Magento_Checkout
 "The product does not exist.","Produk tidak tersedia.",module,Magento_Checkout
 "We don't have some of the products you want.","Kami tidak memiliki beberapa produk yang Anda inginkan.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Kami tidak memiliki beberapa produk yang Anda inginkan sebanyak itu.",module,Magento_Checkout
@@ -54,7 +52,6 @@ State/Province,Provinsi,module,Magento_Checkout
 "This quote item does not exist.","Item kutipan ini tidak ada.",module,Magento_Checkout
 "Display number of items in cart","Menampilkan jumlah item dalam keranjang",module,Magento_Checkout
 "Display item quantities","Menampilkan jumlah item",module,Magento_Checkout
-"An error occurred on the server. Please try to place the order again.","Kesalahan terjadi pada server. Silakan coba untuk memesan lagi.",module,Magento_Checkout
 "Shipping address is not set","Alamat pengiriman tidak diatur",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","Mampu menyimpan informasi pengiriman. Silakan periksa input data.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Kurir dengan metode tersebut tidak ditemukan: %1, %2",module,Magento_Checkout
@@ -131,6 +128,7 @@ Remove,Hilangkan,theme,frontend/Magento/luma
 "Email Address","Alamat Email",module,Magento_Checkout
 Password,"Kata Sandi",module,Magento_Checkout
 "Forgot Your Password?","Lupa Kata Sandi Anda?",module,Magento_Checkout
+items,item,module,Magento_Checkout
 "Welcome to %store_name","Selamat datang di %store_name",theme,frontend/Magento/luma
 "Welcome to %store_name.","Selamat datang di %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Untuk masuk ke situs kami, gunakan kepercayaan ini selama checkout atau pada halaman <a href=""%customer_url""> Akun saya</a>:",theme,frontend/Magento/luma
