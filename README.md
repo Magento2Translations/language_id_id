@@ -12,16 +12,17 @@ There have been  141 strings translated of the 8763 strings in the Magento sourc
 Translation progress:![Progress](http://progressed.io/bar/2)
 
 # Instalation
+**Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_id_id:dev-master
+composer require magento2translations/language_id_id:dev-Head
 php bin/magento cache:clean
 ```
 ## Manually
 To install this language package manually you need access to your server file system.
-* Download the zip file [here](https://github.com/Magento2Translations/language_id_id/archive/master.zip).
+* Download the zip file [here](https://github.com/Magento2Translations/language_id_id/archive/Head.zip).
 * Upload the contents to `<your magento path>/app/i18n/magento2translations/language_id_id`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/id_ID/id_ID.csv`.
 * Go to your Magento admin panel and clear the caches.
