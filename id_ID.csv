@@ -1,21 +1,16 @@
 "Read Details","Baca Detail",module,Magento_AdminNotification
-"Please correct the data sent.","Silakan perbaiki data yang dikirim.",module,Magento_AdvancedPricingImportExport
 "You created the order.","Anda telah membuat pemesanan.",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Form Key tidak valid. Silakan segarkan halaman.",module,Magento_Backend
 "System Backup","System Cadangan",module,Magento_Backup
 Country,Negara,module,Magento_Braintree
 "Percent Discount","Diskon Persen",module,Magento_Bundle
-"Requested bundle option product doesn't exist","Pilihan paket produk yang diinginkan tidak ada",module,Magento_Bundle
-"Requested option doesn't exist","Pilihan yang diminta tidak tersedia",module,Magento_Bundle
 "Please specify product option(s).","Silahkan tentukan opsi-opsi produk.",module,Magento_Bundle
-"The options you selected are not available.","Opsi yang anda pilih tidak tersedia.",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","Kami tidak dapat menambahkan item ini ke keranjang belanja Anda sekarang.",module,Magento_Bundle
 Always,Selalu,module,Magento_Captcha
 "ALL GROUPS","SEMUA GRUP",module,Magento_CatalogInventory
-"Delete Rule","Hapus Kaidah",module,Magento_CatalogRule
 Home,Beranda,module,Magento_CatalogSearch
-"Create Permanent Redirect for old URL","Membuat Redirect permanen untuk URL lama",module,Magento_CatalogUrlRewrite
-"Conditions Combination","Kombinasi Kondisi",module,Magento_CatalogWidget
+"Save Category","Simpan Kategori",module,Magento_Catalog
+"Delete Category","Hapus Kategori",module,Magento_Catalog
+"New Subcategory","Subkategori Baru",module,Magento_Catalog
 "Terms and Conditions","Syarat dan Ketentuan",module,Magento_CheckoutAgreements
 "Shopping Cart","Keranjang Belanja",module,Magento_Checkout
 "Invalid method: %1","Metode tidak valid: %1",module,Magento_Checkout
@@ -26,54 +21,24 @@ State/Province,Provinsi,module,Magento_Checkout
 "My Cart (1 item)","Keranjang belanja (1 item)",module,Magento_Checkout
 "My Cart (%1 items)","Keranjang belanja (%1 item)",module,Magento_Checkout
 "My Cart","Keranjang belanja",module,Magento_Checkout
-"For delivery questions.","Untuk pertanyaan pengiriman.",module,Magento_Checkout
-"Customer is already registered","Pelanggan sudah terdaftar",module,Magento_Checkout
-"Your session has expired","Sesi Anda telah kedaluwarsa",module,Magento_Checkout
-"A letter with further instructions will be sent to your email.","Surat dengan petunjuk lebih lanjut akan dikirim ke email Anda.",module,Magento_Checkout
 "You added %1 to your shopping cart.","Anda menambahkan %1 ke keranjang belanja Anda.",module,Magento_Checkout
-"Out of stock","Stok Habis",module,Magento_Checkout
 "We can't find the quote item.","Kami tidak dapat menemukan item kutipan.",module,Magento_Checkout
 "We cannot configure the product.","Kami tidak dapat mengkonfigurasi produk.",module,Magento_Checkout
-"You used coupon code ""%1"".","Anda menggunakan kode kupon ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kode kupon ""%1"" ini tidak berlaku.",module,Magento_Checkout
-"You canceled the coupon code.","Anda membatalkan kode kupon.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kami tidak dapat menerapkan kode kupon.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 diperbarui dalam keranjang belanja Anda.",module,Magento_Checkout
-"One-page checkout is turned off.","Satu halaman checkout dimatikan.",module,Magento_Checkout
-"Guest checkout is disabled.","Checkout tamu akan dinonaktifkan.",module,Magento_Checkout
-"Page not found.","Halaman tidak ditemukan.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Setuju dengan syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Checkout
-"Something went wrong while processing your order. Please try again later.","Sesuatu yang tidak beres saat memproses pesanan Anda. Harap coba lagi nanti.",module,Magento_Checkout
-"Payment Page","Halaman pembayaran",module,Magento_Checkout
-"We found an invalid request for adding product to quote.","Kami menemukan permintaan yang tidak valid untuk menambahkan produk untuk mengutip.",module,Magento_Checkout
 "The product does not exist.","Produk tidak tersedia.",module,Magento_Checkout
 "We don't have some of the products you want.","Kami tidak memiliki beberapa produk yang Anda inginkan.",module,Magento_Checkout
 "We don't have as many of some products as you want.","Kami tidak memiliki beberapa produk yang Anda inginkan sebanyak itu.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Kuantitas itu dihitung ulang dari %1 untuk %2",module,Magento_Checkout
-"We adjusted product quantities to fit the required increments.","Kami menyesuaikan jumlah produk untuk menyesuaikan bertahap diperlukan.",module,Magento_Checkout
 "This quote item does not exist.","Item kutipan ini tidak ada.",module,Magento_Checkout
 "Display number of items in cart","Menampilkan jumlah item dalam keranjang",module,Magento_Checkout
 "Display item quantities","Menampilkan jumlah item",module,Magento_Checkout
-"An error occurred on the server. Please try to place the order again.","Kesalahan terjadi pada server. Silakan coba untuk memesan lagi.",module,Magento_Checkout
-"Shipping address is not set","Alamat pengiriman tidak diatur",module,Magento_Checkout
-"Unable to save shipping information. Please check input data.","Mampu menyimpan informasi pengiriman. Silakan periksa input data.",module,Magento_Checkout
-"Carrier with such method not found: %1, %2","Kurir dengan metode tersebut tidak ditemukan: %1, %2",module,Magento_Checkout
-"Shipping method is not applicable for empty cart","Pengiriman metode ini tidak berlaku untuk keranjang kosong",module,Magento_Checkout
-"Totals calculation is not applicable to empty cart","Perhitungan total ini tidak berlaku ke keranjang belanja kosong",module,Magento_Checkout
 "Invalid data","Data tidak valid",module,Magento_Checkout
 "The customer address is not valid.","Alamat pelanggan ini tidak berlaku.",module,Magento_Checkout
 "Invalid shipping method","Metode pengiriman yang tidak valid",module,Magento_Checkout
-"There are more than one shipping addresses.","Ada alamat pengiriman lebih dari satu.",module,Magento_Checkout
-"Sorry, guest checkout is not available.","Maaf, checkout tamu ini tidak tersedia.",module,Magento_Checkout
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Anda harus mengkonfirmasi akun Anda. Periksa email Anda untuk link konfirmasi atau <a href=""%1""> Klik di sini</a> untuk link baru.",module,Magento_Checkout
 "Load customer quote error","Kesalahan saat memuat kuotasi pelanggan",module,Magento_Checkout
-"Error message!","Pesan kesalahan!",module,Magento_Checkout
-Error!,Kesalahan!,module,Magento_Checkout
-"DB exception","Pengecualian DB",module,Magento_Checkout
-Message,Pesan,module,Magento_Checkout
-"Apply Discount Code","Menerapkan kode diskon",module,Magento_Checkout
-"Enter discount code","Masukkan kode diskon",module,Magento_Checkout
-"Apply Discount","Terapkan Diskon",module,Magento_Checkout
 "Cancel Coupon","Membatalkan kupon",module,Magento_Checkout
 "Shopping Cart Items","Item di Keranjang belanja",module,Magento_Checkout
 Price,Harga,module,Magento_Checkout
@@ -89,53 +54,22 @@ Edit,Sunting,module,Magento_Checkout
 "Remove item","Menghapus item",module,Magento_Checkout
 "You have no items in your shopping cart.","Anda tidak memiliki barang dalam keranjang belanja Anda.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> di sini</a> untuk melanjutkan belanja.",module,Magento_Checkout
-"Estimate Tax","Memperkirakan pajak",module,Magento_Checkout
 "Estimate Shipping and Tax","Perkiraan pengiriman dan pajak",module,Magento_Checkout
 "Excl. Tax","Belum termasuk pajak",module,Magento_Checkout
 Loading...,Memuat...,module,Magento_Checkout
 "Order #","Pesanan #",module,Magento_Checkout
 "Proceed to Checkout","Lanjutkan untuk Checkout",module,Magento_Checkout
 "Static Blocks","Blok Statis",module,Magento_Cms
-"Default Config","Konfigurasi Default",module,Magento_Config
-"Add configurable attributes to the current Attribute Set (""%1"")","Tambahkan atribut yang dapat dikonfigurasi untuk Atribut Set saat ini (""%1"")",module,Magento_ConfigurableProduct
-"Page not found.","Halaman tidak ditemukan.",module,Magento_Contact
-"Invalid domain name: %1","Nama domain tidak valid: %1",module,Magento_Cookie
 "Save Currency Rates","Simpan Nilai Tukar Mata Uang",module,Magento_CurrencySymbol
-"Please specify a website.","Silakan tentukan website.",module,Magento_CustomerImportExport
-"Sign Out",Keluar,module,Magento_Customer
-"Cannot switch into given mode ""%1""","Tidak dapat beralih ke mode ""%1"" yang diberikan",module,Magento_Deploy
-"Format for IDE '%1' is not supported","Format untuk IDE '%1' tidak didukung",module,Magento_Developer
-"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Pilihlah ini untuk memungkinkan DHL untuk mengoptimalkan biaya pengiriman dengan memisahkan urutan jika melebihi %1 %2.",module,Magento_Dhl
 State/Province,"Provinsi / Negara Bagian",module,Magento_Directory
 "Downloadable Information","Informasi Download",module,Magento_Downloadable
 "Attribute Properties","Propertis Atribut",module,Magento_Eav
 "Add New Template","Tambah template baru",module,Magento_Email
 "Change Encryption Key","Ubah Kunci Enkripsi",module,Magento_EncryptionKey
-"Search Term","Cari Istilah",module,Magento_Search
-"Account Activity","Aktivitas Akun",module,Magento_Security
-"Page not found.","Halaman tidak ditemukan.",module,Magento_SendFriend
 "New Shipment for Order #%1","Pengiriman Baru untuk Pesanan #%1",module,Magento_Shipping
 "Save & Generate","Simpan & Hasilkan",module,Magento_Sitemap
-"Admin is a required field in the each row","Admin adalah yang dibutuhkan di setiap bidang baris",module,Magento_Swatches
-Code,Kode,module,Magento_TaxImportExport
 "Tax Rate Information","Informasi Tarif Pajak",module,Magento_Tax
 "Dictionary (Translation on Storefront side)","Kamus (Terjemahan di sisi Halaman Depan)",module,Magento_Translation
-"Condition type ""%1"" is not allowed","Jenis Kondisi ""%1"" tidak diperbolehkan",module,Magento_Ui
-"Now Shopping by","Sekarang Belanja Berdasarkan",theme,frontend/Magento/luma
-Previous,Sebelum,theme,frontend/Magento/luma
-Remove,Hilangkan,theme,frontend/Magento/luma
-"Remove This Item","Hilangkan item ini",theme,frontend/Magento/luma
 "Shop By","Belanja Berdasarkan",theme,frontend/Magento/luma
-"Clear All","Bersihkan Semua",theme,frontend/Magento/luma
-"Shopping Options","Pilihan Belanja",theme,frontend/Magento/luma
-"Email Address","Alamat Email",module,Magento_Checkout
-Password,"Kata Sandi",module,Magento_Checkout
-"Forgot Your Password?","Lupa Kata Sandi Anda?",module,Magento_Checkout
-"Welcome to %store_name","Selamat datang di %store_name",theme,frontend/Magento/luma
-"Welcome to %store_name.","Selamat datang di %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Untuk masuk ke situs kami, gunakan kepercayaan ini selama checkout atau pada halaman <a href=""%customer_url""> Akun saya</a>:",theme,frontend/Magento/luma
-Password:,"Kata Sandi:",theme,frontend/Magento/luma
-"Password you set when creating account","Kata Sandi yang Anda buat pada saat membuat akun",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Lupa kata sandi akun? Klik <a href=""%reset_url""> di sini</a> untuk menyetel ulang.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Saat Anda melakukan Sign in ke dalam akun Anda, Anda akan mendapatkan:",theme,frontend/Magento/luma
-"Quick Checkout","Checkout Cepat",theme,frontend/Magento/luma
+"For delivery questions.","Untuk pertanyaan pengiriman.",module,Magento_Checkout
+Summary,Ringkasan,theme,frontend/Magento/blank
