@@ -16,6 +16,11 @@ Always,Selalu,module,Magento_Captcha
 Home,Beranda,module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Membuat Redirect permanen untuk URL lama",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Kombinasi Kondisi",module,Magento_CatalogWidget
+Delete,Hapus,module,Magento_Catalog
+Save,Simpan,module,Magento_Catalog
+Price,Harga,module,Magento_Catalog
+Cancel,Batal,module,Magento_Catalog
+"Add to Cart",Beli,module,Magento_Catalog
 "Terms and Conditions","Syarat dan Ketentuan",module,Magento_CheckoutAgreements
 "Shopping Cart","Keranjang Belanja",module,Magento_Checkout
 "Invalid method: %1","Metode tidak valid: %1",module,Magento_Checkout
