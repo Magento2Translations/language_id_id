@@ -11,6 +11,10 @@ Home,Beranda,module,Magento_CatalogSearch
 "Save Category","Simpan Kategori",module,Magento_Catalog
 "Delete Category","Hapus Kategori",module,Magento_Catalog
 "New Subcategory","Subkategori Baru",module,Magento_Catalog
+Price,Harga,module,Magento_Catalog
+Delete,Hapus,module,Magento_Catalog
+Save,Simpan,module,Magento_Catalog
+"Add to Cart",Beli,module,Magento_Catalog
 "Terms and Conditions","Syarat dan Ketentuan",module,Magento_CheckoutAgreements
 "Shopping Cart","Keranjang Belanja",module,Magento_Checkout
 "Invalid method: %1","Metode tidak valid: %1",module,Magento_Checkout
@@ -71,5 +75,6 @@ State/Province,"Provinsi / Negara Bagian",module,Magento_Directory
 "Tax Rate Information","Informasi Tarif Pajak",module,Magento_Tax
 "Dictionary (Translation on Storefront side)","Kamus (Terjemahan di sisi Halaman Depan)",module,Magento_Translation
 "Shop By","Belanja Berdasarkan",theme,frontend/Magento/luma
+Cancel,Batal,module,Magento_Catalog
 "For delivery questions.","Untuk pertanyaan pengiriman.",module,Magento_Checkout
 Summary,Ringkasan,theme,frontend/Magento/blank
