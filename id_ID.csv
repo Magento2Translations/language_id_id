@@ -1,142 +1,195 @@
-"Read Details","Baca Detail",module,Magento_AdminNotification
-"Please correct the data sent.","Silakan perbaiki data yang dikirim.",module,Magento_AdvancedPricingImportExport
-"You created the order.","Anda telah membuat pemesanan.",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","Form Key tidak valid. Silakan segarkan halaman.",module,Magento_Backend
-"System Backup","System Cadangan",module,Magento_Backup
-Country,Negara,module,Magento_Braintree
-"Percent Discount","Diskon Persen",module,Magento_Bundle
-"Requested bundle option product doesn't exist","Pilihan paket produk yang diinginkan tidak ada",module,Magento_Bundle
-"Requested option doesn't exist","Pilihan yang diminta tidak tersedia",module,Magento_Bundle
-"Please specify product option(s).","Silahkan tentukan opsi-opsi produk.",module,Magento_Bundle
-"The options you selected are not available.","Opsi yang anda pilih tidak tersedia.",module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","Kami tidak dapat menambahkan item ini ke keranjang belanja Anda sekarang.",module,Magento_Bundle
-Always,Selalu,module,Magento_Captcha
-"ALL GROUPS","SEMUA GRUP",module,Magento_CatalogInventory
-"Delete Rule","Hapus Kaidah",module,Magento_CatalogRule
-Home,Beranda,module,Magento_CatalogSearch
-"Create Permanent Redirect for old URL","Membuat Redirect permanen untuk URL lama",module,Magento_CatalogUrlRewrite
-"Conditions Combination","Kombinasi Kondisi",module,Magento_CatalogWidget
-Delete,Hapus,module,Magento_Catalog
-Save,Simpan,module,Magento_Catalog
-Price,Harga,module,Magento_Catalog
-Cancel,Batal,module,Magento_Catalog
-"Add to Cart",Beli,module,Magento_Catalog
-"Terms and Conditions","Syarat dan Ketentuan",module,Magento_CheckoutAgreements
-"Shopping Cart","Keranjang Belanja",module,Magento_Checkout
-"Invalid method: %1","Metode tidak valid: %1",module,Magento_Checkout
-City,Kota,module,Magento_Checkout
-Country,Negara,module,Magento_Checkout
-State/Province,Provinsi,module,Magento_Checkout
-"Zip/Postal Code","Kode Pos",module,Magento_Checkout
-"My Cart (1 item)","Keranjang belanja (1 item)",module,Magento_Checkout
-"My Cart (%1 items)","Keranjang belanja (%1 item)",module,Magento_Checkout
-"My Cart","Keranjang belanja",module,Magento_Checkout
-"For delivery questions.","Untuk pertanyaan pengiriman.",module,Magento_Checkout
-"Customer is already registered","Pelanggan sudah terdaftar",module,Magento_Checkout
-"Your session has expired","Sesi Anda telah kedaluwarsa",module,Magento_Checkout
-"A letter with further instructions will be sent to your email.","Surat dengan petunjuk lebih lanjut akan dikirim ke email Anda.",module,Magento_Checkout
-"You added %1 to your shopping cart.","Anda menambahkan %1 ke keranjang belanja Anda.",module,Magento_Checkout
-"Out of stock","Stok Habis",module,Magento_Checkout
-"We can't find the quote item.","Kami tidak dapat menemukan item kutipan.",module,Magento_Checkout
-"We cannot configure the product.","Kami tidak dapat mengkonfigurasi produk.",module,Magento_Checkout
-"You used coupon code ""%1"".","Anda menggunakan kode kupon ""%1"".",module,Magento_Checkout
-"The coupon code ""%1"" is not valid.","Kode kupon ""%1"" ini tidak berlaku.",module,Magento_Checkout
-"You canceled the coupon code.","Anda membatalkan kode kupon.",module,Magento_Checkout
-"We cannot apply the coupon code.","Kami tidak dapat menerapkan kode kupon.",module,Magento_Checkout
-"%1 was updated in your shopping cart.","%1 diperbarui dalam keranjang belanja Anda.",module,Magento_Checkout
-"One-page checkout is turned off.","Satu halaman checkout dimatikan.",module,Magento_Checkout
-"Guest checkout is disabled.","Checkout tamu akan dinonaktifkan.",module,Magento_Checkout
-"Page not found.","Halaman tidak ditemukan.",module,Magento_Checkout
-"Please agree to all the terms and conditions before placing the order.","Setuju dengan syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Checkout
-"Something went wrong while processing your order. Please try again later.","Sesuatu yang tidak beres saat memproses pesanan Anda. Harap coba lagi nanti.",module,Magento_Checkout
-"Payment Page","Halaman pembayaran",module,Magento_Checkout
-"We found an invalid request for adding product to quote.","Kami menemukan permintaan yang tidak valid untuk menambahkan produk untuk mengutip.",module,Magento_Checkout
-"The product does not exist.","Produk tidak tersedia.",module,Magento_Checkout
-"We don't have some of the products you want.","Kami tidak memiliki beberapa produk yang Anda inginkan.",module,Magento_Checkout
-"We don't have as many of some products as you want.","Kami tidak memiliki beberapa produk yang Anda inginkan sebanyak itu.",module,Magento_Checkout
-"Quantity was recalculated from %1 to %2","Kuantitas itu dihitung ulang dari %1 untuk %2",module,Magento_Checkout
-"We adjusted product quantities to fit the required increments.","Kami menyesuaikan jumlah produk untuk menyesuaikan bertahap diperlukan.",module,Magento_Checkout
-"This quote item does not exist.","Item kutipan ini tidak ada.",module,Magento_Checkout
-"Display number of items in cart","Menampilkan jumlah item dalam keranjang",module,Magento_Checkout
-"Display item quantities","Menampilkan jumlah item",module,Magento_Checkout
-"An error occurred on the server. Please try to place the order again.","Kesalahan terjadi pada server. Silakan coba untuk memesan lagi.",module,Magento_Checkout
-"Shipping address is not set","Alamat pengiriman tidak diatur",module,Magento_Checkout
-"Unable to save shipping information. Please check input data.","Mampu menyimpan informasi pengiriman. Silakan periksa input data.",module,Magento_Checkout
-"Carrier with such method not found: %1, %2","Kurir dengan metode tersebut tidak ditemukan: %1, %2",module,Magento_Checkout
-"Shipping method is not applicable for empty cart","Pengiriman metode ini tidak berlaku untuk keranjang kosong",module,Magento_Checkout
-"Totals calculation is not applicable to empty cart","Perhitungan total ini tidak berlaku ke keranjang belanja kosong",module,Magento_Checkout
-"Invalid data","Data tidak valid",module,Magento_Checkout
-"The customer address is not valid.","Alamat pelanggan ini tidak berlaku.",module,Magento_Checkout
-"Invalid shipping method","Metode pengiriman yang tidak valid",module,Magento_Checkout
-"There are more than one shipping addresses.","Ada alamat pengiriman lebih dari satu.",module,Magento_Checkout
-"Sorry, guest checkout is not available.","Maaf, checkout tamu ini tidak tersedia.",module,Magento_Checkout
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Anda harus mengkonfirmasi akun Anda. Periksa email Anda untuk link konfirmasi atau <a href=""%1""> Klik di sini</a> untuk link baru.",module,Magento_Checkout
-"Load customer quote error","Kesalahan saat memuat kuotasi pelanggan",module,Magento_Checkout
-"Error message!","Pesan kesalahan!",module,Magento_Checkout
-Error!,Kesalahan!,module,Magento_Checkout
-"DB exception","Pengecualian DB",module,Magento_Checkout
-Message,Pesan,module,Magento_Checkout
-"Apply Discount Code","Menerapkan kode diskon",module,Magento_Checkout
-"Enter discount code","Masukkan kode diskon",module,Magento_Checkout
-"Apply Discount","Terapkan Diskon",module,Magento_Checkout
-"Cancel Coupon","Membatalkan kupon",module,Magento_Checkout
-"Shopping Cart Items","Item di Keranjang belanja",module,Magento_Checkout
-Price,Harga,module,Magento_Checkout
-Qty,Jml,module,Magento_Checkout
-"Continue Shopping","Lanjutkan Berbelanja",module,Magento_Checkout
-"Clear Shopping Cart","Hapus keranjang belanja",module,Magento_Checkout
-"Update Shopping Cart","Memperbarui keranjang belanja",module,Magento_Checkout
-"Update Cart","Update Keranjang",module,Magento_Checkout
-"See price before order confirmation.","Lihat harga sebelum konfirmasi pesanan.",module,Magento_Checkout
-"What's this?","Apa ini?",module,Magento_Checkout
-"Edit item parameters","Menyunting parameter item",module,Magento_Checkout
-Edit,Sunting,module,Magento_Checkout
-"Remove item","Menghapus item",module,Magento_Checkout
-"You have no items in your shopping cart.","Anda tidak memiliki barang dalam keranjang belanja Anda.",module,Magento_Checkout
-"Click <a href=""%1"">here</a> to continue shopping.","Klik <a href=""%1""> di sini</a> untuk melanjutkan belanja.",module,Magento_Checkout
-"Estimate Tax","Memperkirakan pajak",module,Magento_Checkout
-"Estimate Shipping and Tax","Perkiraan pengiriman dan pajak",module,Magento_Checkout
-"Excl. Tax","Belum termasuk pajak",module,Magento_Checkout
-Loading...,Memuat...,module,Magento_Checkout
-"Order #","Pesanan #",module,Magento_Checkout
-"Proceed to Checkout","Lanjutkan untuk Checkout",module,Magento_Checkout
-"Static Blocks","Blok Statis",module,Magento_Cms
-"Default Config","Konfigurasi Default",module,Magento_Config
-"Add configurable attributes to the current Attribute Set (""%1"")","Tambahkan atribut yang dapat dikonfigurasi untuk Atribut Set saat ini (""%1"")",module,Magento_ConfigurableProduct
-"Page not found.","Halaman tidak ditemukan.",module,Magento_Contact
-"Invalid domain name: %1","Nama domain tidak valid: %1",module,Magento_Cookie
-"Save Currency Rates","Simpan Nilai Tukar Mata Uang",module,Magento_CurrencySymbol
-"Please specify a website.","Silakan tentukan website.",module,Magento_CustomerImportExport
-"Sign Out",Keluar,module,Magento_Customer
-"Cannot switch into given mode ""%1""","Tidak dapat beralih ke mode ""%1"" yang diberikan",module,Magento_Deploy
-"Format for IDE '%1' is not supported","Format untuk IDE '%1' tidak didukung",module,Magento_Developer
-"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Pilihlah ini untuk memungkinkan DHL untuk mengoptimalkan biaya pengiriman dengan memisahkan urutan jika melebihi %1 %2.",module,Magento_Dhl
-State/Province,"Provinsi / Negara Bagian",module,Magento_Directory
-"Downloadable Information","Informasi Download",module,Magento_Downloadable
 "Attribute Properties","Propertis Atribut",module,Magento_Eav
-"Add New Template","Tambah template baru",module,Magento_Email
-"Change Encryption Key","Ubah Kunci Enkripsi",module,Magento_EncryptionKey
-"Search Term","Cari Istilah",module,Magento_Search
+"Default Label","Label standar",module,Magento_Eav
+"Default label","Label standar",module,Magento_Eav
+"Attribute Code","Kode Atribut",module,Magento_Eav
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Ini digunakan secara internal. Pastikan Anda tidak menggunakan spasi atau lebih dari simbol %1.",module,Magento_Eav
+"Catalog Input Type for Store Owner","Jenis Masukan Katalog untuk Pemilik Toko",module,Magento_Eav
+"Values Required","Nilai yang dibutuhkan",module,Magento_Eav
+"Default Value","Nilai default",module,Magento_Eav
+"Unique Value","Nilai Unik",module,Magento_Eav
+"Unique Value (not shared with other products)","Nilai Unik (tidak dibagikan dengan produk lain)",module,Magento_Eav
+"Not shared with other products.","Tidak dibagikan dengan produk lain.",module,Magento_Eav
+"Input Validation for Store Owner","Validasi Masukan untuk Pemilik Toko",module,Magento_Eav
+Required,Wajib,module,Magento_Eav
+Yes,Iya,module,Magento_Eav
+No,Tidak,module,Magento_Eav
+System,Sistem,module,Magento_Eav
+None,"Tidak ada",module,Magento_Eav
+"Decimal Number","Angka desimal",module,Magento_Eav
+"Integer Number","Nomor Integer",module,Magento_Eav
+Email,E-mail,module,Magento_Eav
+Letters,Surat,module,Magento_Eav
+"Letters (a-z, A-Z) or Numbers (0-9)","Surat (az, Az) atau Angka (0-9)",module,Magento_Eav
+"Text Field","Bidang Teks",module,Magento_Eav
+"Text Area","Area teks",module,Magento_Eav
+Date,Tanggal,module,Magento_Eav
+Yes/No,"Ya Tidak",module,Magento_Eav
+"Multiple Select","Pilih Beberapa",module,Magento_Eav
+Dropdown,Terjatuh,module,Magento_Eav
+"Input type ""%value%"" not found in the input types list.","Jenis input ""%value%"" tidak ditemukan dalam daftar jenis input.",module,Magento_Eav
+"Attribute object is undefined","Objek atribut tidak terdefinisi",module,Magento_Eav
+"Entity object is undefined","Objek entitas tidak terdefinisi",module,Magento_Eav
+"""%1"" invalid type entered.","""%1"" tipe tidak valid dimasukkan.",module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" berisi karakter non-alfabet atau non-numerik.",module,Magento_Eav
+"""%1"" is an empty string.","""%1"" adalah string kosong.",module,Magento_Eav
+"""%1"" contains non-numeric characters.","""%1"" berisi karakter non-numerik.",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" berisi karakter non-abjad.",module,Magento_Eav
+"""%1"" is not a valid email address.","""%1"" bukan alamat email yang valid.",module,Magento_Eav
+"""%1"" is not a valid hostname.","""%1"" bukan nama host yang valid.",module,Magento_Eav
+"""%1"" uses too many characters.","""%1"" menggunakan terlalu banyak karakter.",module,Magento_Eav
+"'%value%' looks like an IP address, which is not an acceptable format.","'%value%' terlihat seperti alamat IP, yang bukan format yang dapat diterima.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but we cannot match the TLD against known list.","'%value%' terlihat seperti nama host DNS tapi kami tidak dapat mencocokkan TLD dengan daftar yang diketahui.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but contains a dash in an invalid position.","'%value%' terlihat seperti nama host DNS namun berisi tanda hubung pada posisi yang tidak valid.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but we cannot match it against the hostname schema for TLD '%tld%'.","'%value%' terlihat seperti nama host DNS tapi kami tidak dapat mencocokkannya dengan skema nama host untuk TLD '%tld%'.",module,Magento_Eav
+"'%value%' looks like a DNS hostname but cannot extract TLD part.","'%value%' terlihat seperti nama host DNS namun tidak dapat mengekstrak bagian TLD.",module,Magento_Eav
+"'%value%' does not look like a valid local network name.","'%value%' tidak terlihat seperti nama jaringan lokal yang valid.",module,Magento_Eav
+"'%value%' looks like a local network name, which is not an acceptable format.","'%value%' terlihat seperti nama jaringan lokal, yang bukan format yang dapat diterima.",module,Magento_Eav
+"'%value%' appears to be a DNS hostname, but the given punycode notation cannot be decoded.","'%value%' nampaknya adalah nama host DNS, namun notasi punycode yang diberikan tidak dapat diterjemahkan.",module,Magento_Eav
+"""%1"" is not a valid URL.","""%1"" bukan URL yang valid.",module,Magento_Eav
+"""%1"" is not a valid date.","""%1"" bukan tanggal yang valid.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" tidak sesuai dengan format tanggal yang dimasukkan.",module,Magento_Eav
+"""%1"" is a required value.","""%1"" adalah nilai yang dibutuhkan.",module,Magento_Eav
+"Please enter a valid date between %1 and %2 at %3.","Harap masukkan tanggal yang valid antara %1 dan %2 pada %3.",module,Magento_Eav
+"Please enter a valid date equal to or greater than %1 at %2.","Harap masukkan tanggal yang valid sama dengan atau lebih besar dari %1 pada %2.",module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.","Harap masukkan tanggal berlaku kurang dari atau sama dengan %1 pada %2.",module,Magento_Eav
+"""%1"" is not a valid file extension.","""%1"" bukan ekstensi file yang valid.",module,Magento_Eav
+"""%1"" is not a valid file.","""%1"" bukan file yang valid.",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" melebihi ukuran file yang diizinkan.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" bukan format gambar yang valid",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","Lebar ""%1"" melebihi nilai yang diijinkan %2 px.",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","Tinggi ""%1"" melebihi nilai yang diijinkan %2 px.",module,Magento_Eav
+"""%1"" cannot contain more than %2 lines.","""%1"" tidak boleh berisi lebih dari %2 baris.",module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.","Panjang ""%1"" harus sama atau lebih besar dari %2 karakter.",module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.","Panjang ""%1"" harus sama atau kurang dari %2 karakter.",module,Magento_Eav
+"Attribute group does not belong to provided attribute set","Grup atribut tidak termasuk atribut yang disediakan",module,Magento_Eav
+"Cannot save attributeGroup","Tidak dapat menyimpan attributeGroup",module,Magento_Eav
+"Group with id ""%1"" does not exist.","Kelompok dengan id ""%1"" tidak ada.",module,Magento_Eav
+"Cannot delete attributeGroup with id %1","Tidak dapat menghapus attributeGroup dengan id %1",module,Magento_Eav
+"AttributeSet with id ""%1"" does not exist.","AttributeSet dengan id ""%1"" tidak ada.",module,Magento_Eav
+"Wrong attribute set id provided","Salah set atribut id yang diberikan",module,Magento_Eav
+"Attribute group does not belong to attribute set","Atribut grup tidak termasuk atribut set",module,Magento_Eav
+"Attribute set not found: %1","Set atribut tidak ditemukan: %1",module,Magento_Eav
+"Attribute ""%1"" not found in attribute set %2.","Atribut ""%1"" tidak ditemukan di set atribut %2.",module,Magento_Eav
+"System attribute can not be deleted","Atribut sistem tidak dapat dihapus",module,Magento_Eav
+"Cannot save attribute","Tidak dapat menyimpan atribut",module,Magento_Eav
+"Attribute with attributeCode ""%1"" does not exist.","Atribut dengan atributCode ""%1"" tidak ada.",module,Magento_Eav
+"Cannot delete attribute.","Tidak dapat menghapus atribut.",module,Magento_Eav
+"Attribute with id ""%1"" does not exist.","Atribut dengan id ""%1"" tidak ada.",module,Magento_Eav
+"There was an error saving attribute set.","Terjadi kesalahan saat menyimpan atribut.",module,Magento_Eav
+"Default attribute set can not be deleted","Set atribut default tidak dapat dihapus",module,Magento_Eav
+"There was an error deleting attribute set.","Ada kesalahan saat menghapus atribut.",module,Magento_Eav
+"Invalid entity_type specified: %1","Entity_type tidak valid ditentukan: %1",module,Magento_Eav
+"Entity is not initialized","Entitas tidak diinisialisasi",module,Magento_Eav
+"Unknown parameter","Parameter tidak diketahui",module,Magento_Eav
+"The attribute code '%1' is reserved by system. Please try another attribute code","Kode atribut ' %1 ' dicadangkan oleh sistem. Silakan coba kode atribut lainnya",module,Magento_Eav
+"An attribute code must not be more than %1 characters.","Kode atribut tidak boleh lebih dari %1 karakter.",module,Magento_Eav
+"Invalid default decimal value","Nilai desimal default tidak sah",module,Magento_Eav
+"Invalid default date","Tanggal default tidak sah",module,Magento_Eav
+"Invalid entity supplied","Identitas tidak sah diberikan",module,Magento_Eav
+"Invalid backend model specified: %1","Model backend tidak valid ditentukan: %1",module,Magento_Eav
+"Source model ""%1"" not found for attribute ""%2""","Model sumber ""%1"" tidak ditemukan untuk atribut ""%2""",module,Magento_Eav
+"The value of attribute ""%1"" must be set","Nilai atribut ""%1"" harus ditetapkan",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","Nilai atribut ""%1"" pasti unik",module,Magento_Eav
+"Invalid date","Tanggal tidak berlaku",module,Magento_Eav
+"Empty attribute code","Kode atribut kosong",module,Magento_Eav
+"Attribute %1 doesn't work with options","Atribut %1 tidak bekerja dengan pilihan",module,Magento_Eav
+"Cannot save attribute %1","Tidak dapat menyimpan atribut %1",module,Magento_Eav
+"Attribute %1 doesn't have any option","Atribut %1 tidak memiliki pilihan apapun",module,Magento_Eav
+"Cannot load options for attribute %1","Tidak dapat memuat opsi untuk atribut %1",module,Magento_Eav
+"Attribute %1 does not contain option with Id %2","Atribut %1 tidak berisi opsi dengan Id %2",module,Magento_Eav
+"Entity attribute with id ""%1"" not found","Atribut entitas dengan id ""%1"" tidak ditemukan",module,Magento_Eav
+"Attribute set name is empty.","Nama set atribut kosong.",module,Magento_Eav
+"An attribute set named ""%1"" already exists.","Kumpulan atribut bernama ""%1"" sudah ada.",module,Magento_Eav
+"No options found.","Tidak ada pilihan yang ditemukan.",module,Magento_Eav
+"Invalid entity supplied: %1","Entitas tidak valid diberikan: %1",module,Magento_Eav
+"Attempt to add an invalid object","Mencoba menambahkan objek yang tidak sah",module,Magento_Eav
+"Invalid attribute identifier for filter (%1)","Pengenal atribut tidak sah untuk filter (%1)",module,Magento_Eav
+"Invalid attribute requested: %1","Atribut yang tidak valid diminta: %1",module,Magento_Eav
+"Joint field or attribute expression with this alias is already declared","Ekspresi lapangan bersama atau atribut dengan alias ini sudah dinyatakan",module,Magento_Eav
+"Invalid alias, already exists in joint attributes","Alias ​​tidak valid, sudah ada di atribut bersama",module,Magento_Eav
+"Invalid foreign key","Kunci asing tidak valid",module,Magento_Eav
+"Invalid entity type","Jenis entitas tidak sah",module,Magento_Eav
+"Invalid attribute type","Jenis atribut tidak sah",module,Magento_Eav
+"A joined field with this alias is already declared.","Bidang bergabung dengan alias ini sudah dideklarasikan.",module,Magento_Eav
+"Invalid joint fields","Bidang gabungan tidak sah",module,Magento_Eav
+"A joint field with this alias (%1) is already declared.","Bidang gabungan dengan alias ini (%1) sudah diumumkan.",module,Magento_Eav
+"Data integrity: No header row found for attribute","Integritas data: Tidak ada baris tajuk yang ditemukan untuk atribut",module,Magento_Eav
+"Invalid attribute name: %1","Nama atribut tidak sah: %1",module,Magento_Eav
+"Invalid character encountered in increment ID: %1","Karakter tidak sah ditemui di ID penambah: %1",module,Magento_Eav
+"The current module pathname is undefined.","Nama jalur modul saat ini tidak terdefinisi.",module,Magento_Eav
+"The current module EAV entity is undefined.","Entah modul EAV saat ini tidak terdefinisi.",module,Magento_Eav
+"The form code is not defined.","Kode formulir tidak didefinisikan.",module,Magento_Eav
+"The entity instance is not defined.","Contoh entitas tidak didefinisikan.",module,Magento_Eav
+"Invalid form type.","Jenis formulir tidak sah.",module,Magento_Eav
+"Invalid EAV attribute","Atribut EAV tidak sah",module,Magento_Eav
+"Attribute with the same code","Atribut dengan kode yang sama",module,Magento_Eav
+"The storefront label is not defined.","Label etalase tidak ditentukan.",module,Magento_Eav
+"Default option value is not defined","Nilai opsi default tidak ditentukan",module,Magento_Eav
+"Form Element with the same attribute","Dari Elemen dengan atribut yang sama",module,Magento_Eav
+"Form Fieldset with the same code","Dari Fieldset dengan kode yang sama",module,Magento_Eav
+"Form Type with the same code","Dari tipe dengan kode yang sama",module,Magento_Eav
+"The value of attribute ""%1"" is invalid.","Nilai atribut ""%1"" tidak sah.",module,Magento_Eav
+"Wrong entity ID","Identitas yang salah",module,Magento_Eav
+"Wrong attribute set ID","Atribut set ID yang salah",module,Magento_Eav
+"Wrong attribute group ID","ID grup atribut yang salah",module,Magento_Eav
+"AttributeSet does not exist.","AttributeSet tidak ada.",module,Magento_Eav
+hello,halo,module,Magento_Eav
+"Some internal exception message.","Beberapa pesan pengecualian internal.",module,Magento_Eav
+"The value of attribute not valid","Nilai atribut tidak valid",module,Magento_Eav
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","Tidak ada ID Aplikasi Relik Baru yang dikonfigurasi, tidak dapat melanjutkan pelaporan Cron Event",module,Magento_NewRelicReporting
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Integrasi Relik Baru memerlukan agen newrelic-php5 yang tidak terpasang. Lebih 
+                        informasi tentang pemasangan agen tersedia <a target=""_blank"" href=""%1"">di sini</a>.",module,Magento_NewRelicReporting
 "Account Activity","Aktivitas Akun",module,Magento_Security
-"Page not found.","Halaman tidak ditemukan.",module,Magento_SendFriend
-"New Shipment for Order #%1","Pengiriman Baru untuk Pesanan #%1",module,Magento_Shipping
-"Save & Generate","Simpan & Hasilkan",module,Magento_Sitemap
-"Admin is a required field in the each row","Admin adalah yang dibutuhkan di setiap bidang baris",module,Magento_Swatches
-Code,Kode,module,Magento_TaxImportExport
-"Tax Rate Information","Informasi Tarif Pajak",module,Magento_Tax
-"Dictionary (Translation on Storefront side)","Kamus (Terjemahan di sisi Halaman Depan)",module,Magento_Translation
-"Condition type ""%1"" is not allowed","Jenis Kondisi ""%1"" tidak diperbolehkan",module,Magento_Ui
-"Now Shopping by","Sekarang Belanja Berdasarkan",theme,frontend/Magento/luma
-Previous,Sebelum,theme,frontend/Magento/luma
-Remove,Hilangkan,theme,frontend/Magento/luma
-"Remove This Item","Hilangkan item ini",theme,frontend/Magento/luma
+"All other open sessions for this account were terminated.","Semua sesi terbuka lainnya untuk akun ini telah dihentikan.",module,Magento_Security
+"We couldn't logout because of an error.","Kami Tidak Dapat Keluar Karena ada Kesalahan.",module,Magento_Security
+"Someone logged into this account from another device or browser. Your current session is terminated.","Seseorang Masuk Menggunakan Akun Ini dari perangkat atau peramban lain. Sesi Anda saat ini dihentikan.",module,Magento_Security
+"Your current session is terminated by another user of this account.","Sesi Anda saat ini telah dihentikan oleh pengguna lain dari akun ini.",module,Magento_Security
+"Your account is temporarily disabled.","Akun Anda untuk Semntara dinonaktifkan.",module,Magento_Security
+"Your current session has been expired.","Sesi Anda saat Ini telah kadaluarsa.",module,Magento_Security
+"By IP and Email","Melalui IP dan Email",module,Magento_Security
+"By IP","Melalui IP",module,Magento_Security
+"By Email","Melalui Email",module,Magento_Security
+None,"Tidak Ada",module,Magento_Security
+"Too many password reset requests. Please wait and try again or contact %1.","Terlalu Banyak Permintaan merubah pasword, Harap Menunggu dan Mencoba lagi atau Hubungi %1.",module,Magento_Security
+"Incorrect Security Checker class. It has to implement SecurityCheckerInterface","Kelas Pengecekan Keamanan salah. Harus Menerapkan Seperti Yang ditampilkan di Halaman Cek Keamanan",module,Magento_Security
+"some error","beberapa Kesalahan",module,Magento_Security
+"This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Akun administrator ini terbuka di lebih dari satu lokasi. Perhatikan bahwa lokasi lain mungkin berbeda dengan peramban atau sesi pada komputer yang sama.",module,Magento_Security
+"Concurrent session information:","Sesi Informasi Bersamaan:",module,Magento_Security
+"IP Address","Alamat IP",module,Magento_Security
+"Time of session start","Waktu sesi mulai",module,Magento_Security
+"Are you sure that you want to log out all other sessions?","Apakah Anda Yakin Bahwa Anda Ingin keluar dari semua sesi lain?",module,Magento_Security
+"Log out all other sessions","Keluar dari semua sesi",module,Magento_Security
+"This computer is using IP address %1.","Komputer ini Menggunakan Alamat IP %1.",module,Magento_Security
+"Invalid store parameter.","Parameter toko tidak valid.",module,Magento_Store
+"Current store is not active.","Toko saat ini tidak aktif.",module,Magento_Store
+"Requested store is inactive","Toko yang diminta tidak aktif",module,Magento_Store
+"Requested store is not found","Toko yang diminta tidak ditemukan",module,Magento_Store
+"Environment emulation nesting is not allowed.","Sajian emulasi lingkungan tidak diperbolehkan.",module,Magento_Store
+"Invalid scope object","Objek lingkup tidak valid",module,Magento_Store
+"Store with the same code","Simpan dengan kode yang sama",module,Magento_Store
+"Website with the same code","Website dengan kode yang sama",module,Magento_Store
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Kode situs mungkin hanya berisi huruf (az), angka (0-9) atau garis bawah (_), dan huruf pertama harus berupa huruf.",module,Magento_Store
+"Name is required","Nama diperlukan",module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Kode toko hanya boleh berisi huruf (az), angka (0-9) atau garis bawah (_), dan huruf pertama harus berupa huruf.",module,Magento_Store
+"Store is inactive","Toko tidak aktif",module,Magento_Store
+"Default store is inactive","Toko default tidak aktif",module,Magento_Store
+"All Store Views","Semua Tampilan Store",module,Magento_Store
+"-- Please Select --","-- Silahkan pilih --",module,Magento_Store
+"Default website is not defined","Situs web default tidak didefinisikan",module,Magento_Store
+"More than one default website is defined","Lebih dari satu situs web standar didefinisikan",module,Magento_Store
+"no such entity exception","tidak ada pengecualian entitas seperti itu",module,Magento_Store
+"Your Language:","Bahasa Anda:",module,Magento_Store
+"Your Language","Bahasa Anda",module,Magento_Store
+Language,Bahasa,module,Magento_Store
+"Select Store","Pilih Toko",module,Magento_Store
+"Now Shopping by","Sekarang Belanja oleh",theme,frontend/Magento/luma
+Previous,Sebelumnya,theme,frontend/Magento/luma
+Remove,Menghapus,theme,frontend/Magento/luma
+"Remove This Item","Hapus item ini",theme,frontend/Magento/luma
 "Shop By","Belanja Berdasarkan",theme,frontend/Magento/luma
 "Clear All","Bersihkan Semua",theme,frontend/Magento/luma
 "Shopping Options","Pilihan Belanja",theme,frontend/Magento/luma
-"Email Address","Alamat Email",module,Magento_Checkout
-Password,"Kata Sandi",module,Magento_Checkout
-"Forgot Your Password?","Lupa Kata Sandi Anda?",module,Magento_Checkout
-items,item,module,Magento_Checkout
 "Welcome to %store_name","Selamat datang di %store_name",theme,frontend/Magento/luma
 "Welcome to %store_name.","Selamat datang di %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Untuk masuk ke situs kami, gunakan kepercayaan ini selama checkout atau pada halaman <a href=""%customer_url""> Akun saya</a>:",theme,frontend/Magento/luma
@@ -145,3 +198,79 @@ Password:,"Kata Sandi:",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Lupa kata sandi akun? Klik <a href=""%reset_url""> di sini</a> untuk menyetel ulang.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Saat Anda melakukan Sign in ke dalam akun Anda, Anda akan mendapatkan:",theme,frontend/Magento/luma
 "Quick Checkout","Checkout Cepat",theme,frontend/Magento/luma
+"Proceed through checkout faster","Lanjutkan melalui pemeriksaan yang lebih cepat",theme,frontend/Magento/luma
+"Order Status","Status pemesanan",theme,frontend/Magento/luma
+"Check the status of orders","Periksa status pesanan",theme,frontend/Magento/luma
+"Manage Addresses","Kelola Alamat",theme,frontend/Magento/luma
+"Store alternative addresses","Simpan alamat alternatif",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","Untuk pengiriman ke beberapa anggota keluarga dan teman",theme,frontend/Magento/luma
+"Order History","Sejarah pesanan",theme,frontend/Magento/luma
+"View past orders","Lihat pesanan terakhir",theme,frontend/Magento/luma
+Footer,"Bagian kaki",theme,frontend/Magento/luma
+"About Us","Tentang kami",theme,frontend/Magento/luma
+"Customer Service","Pelayanan pelanggan",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Operasi berjam-jam:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Credit memo for your %store_name order","Memo kredit untuk %store_name pesanan Anda",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Terima kasih atas pesanan anda dari %store_name.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Anda dapat memeriksa status pesanan Anda dengan <a href="" %a ccount_url""> masuk ke akun Anda </a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jika ada pertanyaan tentang pesanan Anda, Anda dapat mengirim email kepada kami di <a href=""mailto: %s tore_email""> %store_email </a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Memo Kredit Anda #%c reditmemo_id untuk Order #%order_id",theme,frontend/Magento/luma
+"Billing Info","Info pembayaran",theme,frontend/Magento/luma
+"Shipping Info","Informasi Pengiriman",theme,frontend/Magento/luma
+"Payment Method","Metode pembayaran",theme,frontend/Magento/luma
+"Shipping Method","Metode pengiriman",theme,frontend/Magento/luma
+"Update to your %store_name credit memo","Perbarui ke memo kredit %store_name Anda",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Pesanan Anda #%increment_id telah diperbarui dengan status <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Invoice for your %store_name order","Faktur untuk pesanan %store_name Anda",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","Faktur Anda # %invoice_id untuk Pesanan #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name invoice","Perbarui ke faktur %store_name Anda",theme,frontend/Magento/luma
+"Your %store_name order confirmation","Konfirmasi pesanan %store_name Anda",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","Setelah paket Anda dikirimkan, kami akan mengirimkan nomor pelacakan kepada Anda.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","Pesanan Anda <span class =""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Ditempatkan di <span class =""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Update to your %store_name order","Perbarui ke pesanan %store_name Anda",theme,frontend/Magento/luma
+"Your %store_name order has shipped","Pesanaan %store_name Anda telah dikirimkan",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Konfirmasi pengiriman Anda di bawah. Terima kasih lagi untuk bisnis anda.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","Pengiriman Anda #%shipment_id untuk Pesanan #%order_id",theme,frontend/Magento/luma
+"Update to your %store_name shipment","Perbaharui ke pengiriman %store_name Anda",theme,frontend/Magento/luma
+"EAV types and attributes","Tipe dan atribut EAV",module,Magento_Eav
+"Entity types declaration cache","Jenis entitas deklarasi cache",module,Magento_Eav
+"New Relic Reporting Section","Bagian Pelaporan Relik Baru",module,Magento_NewRelicReporting
+"New Relic Reporting","Pelaporan Relik Baru",module,Magento_NewRelicReporting
+General,Umum,module,Magento_NewRelicReporting
+"Enable New Relic Integration","Aktifkan Integrasi Relik Baru",module,Magento_NewRelicReporting
+"New Relic API URL","URL API Relic Baru",module,Magento_NewRelicReporting
+"Insights API URL","URL API Wawasan",module,Magento_NewRelicReporting
+"New Relic Account ID","ID Akun Relik Baru",module,Magento_NewRelicReporting
+"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Perlu akun Relic Baru? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Klik di sini untuk mendapatkan satu",module,Magento_NewRelicReporting
+"New Relic Application ID","ID Aplikasi Relik Baru",module,Magento_NewRelicReporting
+"This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Ini biasanya dapat ditemukan di akhir URL saat melihat APM setelah ""/aplikasi/""",module,Magento_NewRelicReporting
+"New Relic API Key","Kunci API Relic Baru",module,Magento_NewRelicReporting
+"This is located by navigating to Events -> Deployments from the New Relic APM website","Ini terletak dengan menavigasi ke Events -> Deployments dari situs APM New Relic",module,Magento_NewRelicReporting
+"Insights API Key","Wawasan Kunci API",module,Magento_NewRelicReporting
+"Generated under Insights in Manage data -> API Keys -> Insert Keys","Dihasilkan di bawah Wawasan dalam Mengelola data -> Tombol API -> Sisipkan Tombol",module,Magento_NewRelicReporting
+"New Relic Application Name","Nama Aplikasi Relik Baru",module,Magento_NewRelicReporting
+"This is located by navigating to Settings from the New Relic APM website","Ini terletak dengan menavigasi ke Settings dari situs APM New Relic",module,Magento_NewRelicReporting
+"Enable Cron","Aktifkan Cron",module,Magento_NewRelicReporting
+"Admin Account Sharing","Pengaturan akun admin",module,Magento_Security
+"If set to Yes, you can log in from multiple computers into same account. Default setting No improves security.","Jika dipilih ke Ya, Anda dapat masuk dari beberapa komputer ke akun yang sama. Pengaturan standar Tidak meningkatkan keamanan.",module,Magento_Security
+"Password Reset Protection Type","Jenis Keamanan merubah kata sandi",module,Magento_Security
+"Max Number of Password Reset Requests","Jumlah maksimal permintaan merubah kata sandi",module,Magento_Security
+"Limit the number of password reset request per hour. Use 0 to disable.","Batas jumlah permintaan merubah kata sandi setiap waktu. Menggunakan 0 untuk tidak mengaktifkan.",module,Magento_Security
+"Min Time Between Password Reset Requests","Minimal Waktu Permintaan Merubah kata Sandi",module,Magento_Security
+"Delay in minutes between password reset requests. Use 0 to disable.","Penundaan beberapa menit untuk permintaan mengubah kata sandi. Menggunakan 0 untuk tidak mengaktifkan.",module,Magento_Security
+Configuration,Konfigurasi,module,Magento_Store
+"Various XML configurations that were collected across modules and merged","Berbagai konfigurasi XML yang dikumpulkan di seluruh modul dan digabungkan",module,Magento_Store
+Layouts,"Tata letak",module,Magento_Store
+"Layout building instructions","Petunjuk pembuatan layout",module,Magento_Store
+"Blocks HTML output","Blokir keluaran HTML",module,Magento_Store
+"Page blocks HTML","Halaman memblokir HTML",module,Magento_Store
+"Collections Data","Data Koleksi",module,Magento_Store
+"Collection data files","Koleksi file data",module,Magento_Store
+"Reflection Data","Data Refleksi",module,Magento_Store
+"API interfaces reflection data","Antarmuka API memantulkan data",module,Magento_Store
+"Database DDL operations","Operasi DDL Database",module,Magento_Store
+"Results of DDL queries, such as describing tables or indexes","Hasil query DDL, seperti menggambarkan tabel atau indeks",module,Magento_Store
+"Account Dashboard","Dasbor akun",theme,frontend/Magento/luma
+"Account Information","Informasi Akun",theme,frontend/Magento/luma
+"Address Book","Buku alamat",theme,frontend/Magento/luma
