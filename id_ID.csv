@@ -25,6 +25,7 @@ major,untuk,module,Magento_AdminNotification
 minor,kecil,module,Magento_AdminNotification
 notice,memberitahu,module,Magento_AdminNotification
 "Wrong message type","Tipe Pesan yang salah",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Satu atau beberapa Jenis Cache tidak berlaku: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Silakan buka <a href=""%1""> Manajemen Cache </a> dan segarkan jenis cache.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Sinkronisasi penyimpanan media telah selesai.",module,Magento_AdminNotification
 "Close popup","Tutup popup",module,Magento_AdminNotification
@@ -158,6 +159,7 @@ To,Ke,module,Magento_Backend
 "Date selector","Seleksi tanggal",module,Magento_Backend
 "[ deleted ]",[dihapus],module,Magento_Backend
 "Select All","Pilih Semua",module,Magento_Backend
+" [deleted]"," [dihapus]",module,Magento_Backend
 "Add New","Tambah baru",module,Magento_Backend
 Export,Ekspor,module,Magento_Backend
 "Please correct the column format and try again.","Perbaiki format kolom dan coba lagi.",module,Magento_Backend
@@ -206,6 +208,7 @@ System,Sistem,module,Magento_Backend
 "The website does not exist.","Situs itu tidak ada.",module,Magento_Backend
 "The store does not exist","Toko itu tidak ada",module,Magento_Backend
 "Store view doesn't exist","Tampilan toko tidak ada",module,Magento_Backend
+"New ","Baru ",module,Magento_Backend
 "Last 24 Hours","24 jam terakhir",module,Magento_Backend
 "Last 7 Days","7 hari terakhir",module,Magento_Backend
 "Current Month","Bulan berjalan",module,Magento_Backend
@@ -322,11 +325,11 @@ Country,Negara,module,Magento_Braintree
 "My Credit Cards","Kartu Kredit Saya",module,Magento_Braintree
 "There was error during saving card data","Terjadi eror saat menyimpan data kartu kredit",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","Transaksi ditolak oleh pintu gerbang, Cek detil kartu atau coba kartu lain",module,Magento_Braintree
+"Transaction declined: ","Transaksi ditolak: ",module,Magento_Braintree
 "Credit card type is not allowed for your country.","Tipe kartu kredit tidak diterima untuk negara anda.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Kartu kredit tidak diterima untuk metode pembayaran ini.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","Jenis pembayaran yang dipilih tidak diizinkan untuk negara penagihan.",module,Magento_Braintree
 "Please try again later","Silahkan coba lagi nanti",module,Magento_Braintree
-"This refund is for a partial amount but the Transaction has not settled.","Pengembalian dana ini sebagian atau sebagian karena Transaksi belum diselesaikan.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Silahkan tunggu 24 jam sebelum mencoba mengeluarkan sebagian pengembalian dana.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Beberapa transaksi sudah diselesaikan atau dibatalkan dan tidak dapat dibatalkan.",module,Magento_Braintree
 "Invalid Customer ID provided","Nomor Pelanggan Tidak Valid diberikan",module,Magento_Braintree
@@ -856,6 +859,7 @@ Role,Peran,module,Magento_Catalog
 "Unselect All","Batalkan semua pilihan",module,Magento_Catalog
 "Select Visible","Pilih Terlihat",module,Magento_Catalog
 "Unselect Visible","Batalkan pilihan yang terlihat",module,Magento_Catalog
+"Buy %1 for: ","Beli %1 untuk: ",module,Magento_Catalog
 "Shop By","Toko oleh - oleh",module,Magento_Catalog
 "Shopping Options","Pilihan Belanja",module,Magento_Catalog
 "Compare Products","Bandingkan Produk",module,Magento_Catalog
@@ -1252,7 +1256,6 @@ Change,Perubahan,module,Magento_Customer
 "Contact Information","Kontak informasi",module,Magento_Customer
 "Change Password","Ganti kata sandi",module,Magento_Customer
 Newsletters,Nawala,module,Magento_Customer
-or,atau,module,Magento_Customer
 "Default Addresses","Alamat default",module,Magento_Customer
 "Change Billing Address","Ubah Alamat Penagihan",module,Magento_Customer
 "You have no default billing address in your address book.","Anda tidak memiliki alamat penagihan default di buku alamat Anda.",module,Magento_Customer
@@ -1902,6 +1905,7 @@ Paused,Dijeda,module,Magento_Newsletter
 "Newsletter Message Preview","Pratinjau Pesan Newsletter",module,Magento_Newsletter
 "Add to Queue","Tambahkan ke antrian",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Apakah Anda yakin ingin menghapus semua tag?",module,Magento_Newsletter
+" Copy"," Salinan",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Mendaftar untuk Newsletter kami:",module,Magento_Newsletter
 "Enter your email address","Masukkan alamat email Anda",module,Magento_Newsletter
 Subscribe,Berlangganan,module,Magento_Newsletter
@@ -1971,6 +1975,7 @@ No,Tidak,module,Magento_Payment
 "Switch/Solo/Maestro Only","Beralih /Solo/ Maestro Saja",module,Magento_Payment
 "Issue Number","Nomor pembuatan",module,Magento_Payment
 "Start Date","Mulai tanggal",module,Magento_Payment
+" is not available. You still can process offline actions."," tidak tersedia. Anda masih bisa memproses tindakan offline.",module,Magento_Payment
 "--Please Select--","--Silahkan pilih--",module,Magento_Payment
 "Card Verification Number Visual Reference","Nomor Referensi Visual Verifikasi Kartu",module,Magento_Payment
 "What is this?","Apa ini?",module,Magento_Payment
@@ -2186,6 +2191,7 @@ Debit,Debet,module,Magento_Paypal
 "General (Purchase with a credit card)","Umum (beli dengan kartu kredit)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Penyesuaian Umum tanpa acara terkait bisnis",module,Magento_Paypal
 "General Currency Conversion","Konversi Mata Uang Umum",module,Magento_Paypal
+"General Funding of PayPal Account ","Pendanaan Umum Akun PayPal ",module,Magento_Paypal
 "General Redemption","Penebusan Umum",module,Magento_Paypal
 "General Withdrawal from PayPal Account","Penarikan Umum dari Rekening PayPal",module,Magento_Paypal
 "General. Product no longer supported","Umum. Produk tidak lagi didukung",module,Magento_Paypal
@@ -2244,11 +2250,15 @@ Daily,Harian,module,Magento_Paypal
 Customer,Pelanggan,module,Magento_Paypal
 "Created At","Dibuat di",module,Magento_Paypal
 "Updated At","Diperbarui pada",module,Magento_Paypal
+"Not sure what PayPal payment method to use? Click ","Tidak yakin metode pembayaran PayPal apa yang digunakan? Klik ",module,Magento_Paypal
 here,sini,module,Magento_Paypal
+" to learn more."," untuk belajar lebih banyak.",module,Magento_Paypal
+"Important: ","Penting: ",module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Untuk menggunakan Pembayaran PayPal Lanjutan, Anda harus mengonfigurasi akun PayPal Payments Advanced di situs web PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Setelah masuk ke akun PayPal Advanced, navigasikan ke menu Setelan Layanan - Halaman Checkout Host - Set Up dan setel opsi yang dijelaskan di bawah ini",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Untuk menggunakan PayPal Payflow Link, Anda harus mengkonfigurasi akun Payflow PayPal di situs PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Setelah masuk ke akun Payflow Link PayPal, navigasikan ke menu Setelan Layanan - Halaman Checkout Host - Set Up dan setel opsi yang dijelaskan di bawah ini",module,Magento_Paypal
+"Billing Agreement # ","Perjanjian Penagihan # ",module,Magento_Paypal
 "Agreement Information","Informasi Perjanjian",module,Magento_Paypal
 "Reference ID:","ID referensi:",module,Magento_Paypal
 Created:,Dibuat:,module,Magento_Paypal
@@ -2266,6 +2276,7 @@ View,Melihat,module,Magento_Paypal
 "You will be redirected to the payment system website.","Anda akan diarahkan ke situs sistem pembayaran.",module,Magento_Paypal
 "-- Please Select --","-- Silahkan pilih --",module,Magento_Paypal
 Create...,Membuat...,module,Magento_Paypal
+"Your billing agreement # is: ","Perjanjian penagihan # Anda adalah: ",module,Magento_Paypal
 "Shipping Method","Metode pengiriman",module,Magento_Paypal
 "Please select a shipping method...","Silahkan pilih metode pengiriman...",module,Magento_Paypal
 "Update Shipping Method","Perbarui Metode Pengiriman",module,Magento_Paypal
@@ -2832,6 +2843,7 @@ Reorder,"Menyusun ulang",module,Magento_Sales
 "Order # %1 %2 | %3","Memesan # %1 %2 | %3",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Apakah kamu yakin Perintah ini akan dibatalkan dan yang baru akan dibuat sebagai gantinya.",module,Magento_Sales
 "Save Gift Message","Simpan Hadiah Pesan",module,Magento_Sales
+" [deleted]"," [dihapus]",module,Magento_Sales
 "Order Shipments","Pengiriman pesanan",module,Magento_Sales
 Transactions,Transaksi,module,Magento_Sales
 "Order View","Agar View",module,Magento_Sales
@@ -2923,6 +2935,8 @@ Home,Rumah,module,Magento_Sales
 "Go to Home Page","Pergi ke Halaman",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Kami tidak dapat menambahkan produk ke keranjang dengan nomor ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Terjadi kesalahan pada salah satu pilihan baris.",module,Magento_Sales
+"Shipping Address: ","Alamat Pengiriman: ",module,Magento_Sales
+"Billing Address: ","Alamat tagihan: ",module,Magento_Sales
 "This payment method is not available.","Metode pembayaran ini tidak tersedia.",module,Magento_Sales
 "A hold action is not available.","Sebuah tindakan terus tidak tersedia.",module,Magento_Sales
 "You cannot remove the hold.","Anda tidak dapat membatalkan penangguhan.",module,Magento_Sales
@@ -2978,6 +2992,7 @@ Mixed,Campuran,module,Magento_Sales
 Order,Memesan,module,Magento_Sales
 Authorization,Otorisasi,module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Kami menemukan jenis transaksi yang tidak diukung ""%1"".",module,Magento_Sales
+"Order Date: ","Tanggal pemesanan: ",module,Magento_Sales
 "Sold to:","Dijual ke:",module,Magento_Sales
 "Ship to:","Dikirim ke:",module,Magento_Sales
 "Payment Method:","Metode pembayaran:",module,Magento_Sales
@@ -2989,6 +3004,7 @@ Number,Jumlah,module,Magento_Sales
 "Please define the PDF object before using.","Silakan menentukan objek PDF sebelum menggunakan.",module,Magento_Sales
 Products,Produk,module,Magento_Sales
 Qty,Jml,module,Magento_Sales
+"Invoice # ","Faktur # ",module,Magento_Sales
 "The order object is not specified.","Objek agar tidak ditentukan.",module,Magento_Sales
 "The source object is not specified.","Objek sumber tidak ditentukan.",module,Magento_Sales
 "An item object is not specified.","Sebuah objek Item tidak ditentukan.",module,Magento_Sales
@@ -2996,6 +3012,7 @@ Qty,Jml,module,Magento_Sales
 "A PDF page object is not specified.","Sebuah objek halaman PDF tidak ditentukan.",module,Magento_Sales
 "Excl. Tax","Excl. Pajak",module,Magento_Sales
 "Incl. Tax","Termasuk. Pajak",module,Magento_Sales
+"Packing Slip # ","Selip Kemasan # ",module,Magento_Sales
 title,judul,module,Magento_Sales
 "We cannot register an existing shipment","Kita tidak bisa mendaftarkan pengiriman yang ada",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Model total harus diperluas dari \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
@@ -3281,7 +3298,10 @@ Action,Tindakan,module,Magento_Shipping
 "Tracking Number:","Melacak nomor:",module,Magento_Shipping
 Carrier:,Pembawa:,module,Magento_Shipping
 Error:,Kesalahan:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Informasi pelacakan saat ini tidak tersedia. Silahkan ",module,Magento_Shipping
 "contact us","hubungi kami",module,Magento_Shipping
+" for more information or "," untuk informasi lebih lanjut atau ",module,Magento_Shipping
+"email us at ","di email kami ",module,Magento_Shipping
 Track:,Jalur:,module,Magento_Shipping
 "Delivered on:","Disampaikan pada:",module,Magento_Shipping
 "Signed by:","Tertanda oleh:",module,Magento_Shipping
@@ -3389,7 +3409,13 @@ Code,Kode,module,Magento_Tax
 "Including Tax","Termasuk pajak",module,Magento_Tax
 None,"Tidak ada",module,Magento_Tax
 "Including and Excluding Tax","Termasuk dan tidak termasuk pajak",module,Magento_Tax
+"Warning tax configuration can result in rounding errors. ","Konfigurasi pajak peringatan dapat mengakibatkan kesalahan pembulatan. ",module,Magento_Tax
+"Store(s) affected: ","Toko Terpengaruh: ",module,Magento_Tax
 "Click on the link to <a href=""%1"">ignore this notification</a>","Klik pada link untuk <a href=""%1"">Abaikan Pemberitahuan ini</a>",module,Magento_Tax
+"Warning tax discount configuration might result in different discounts
+                                than a customer might expect. ","Konfigurasi diskon pajak peringatan bisa menghasilkan diskon yang berbeda
+                                dari yang diharapkan pelanggan. ",module,Magento_Tax
+"Please see <a href=""%1"">documentation</a> for more details. ","Silahkan Lihat <a href=""%1"">dokumentasi</a> Untuk rincian lebih lanjut. ",module,Magento_Tax
 "Click here to go to <a href=""%1"">Tax Configuration</a> and change your settings.","Klik disini untuk melihat <a href=""%1"">Konfigurasi pajak</a> Dan merubah settingan Anda.",module,Magento_Tax
 "customer group","grup Pelanggan",module,Magento_Tax
 product,produk,module,Magento_Tax
@@ -3881,7 +3907,6 @@ Back,Kembali,module,Magento_Wishlist
 "Remove This Item","Hapus item ini",module,Magento_Wishlist
 "Go to Wish List","Pergi ke Wish List",module,Magento_Wishlist
 "You have no items in your wish list.","Anda tidak memiliki barang dalam daftar keinginan Anda.",module,Magento_Wishlist
-"Shop By","Belanja Berdasarkan",theme,frontend/Magento/luma
 "Add Products to New Option","Tambahkan Produk ke Opsi Baru",module,Magento_Bundle
 "Add Products to Option ""%1""","Tambahkan Produk ke Opsi ""%1""",module,Magento_Bundle
 "Add Selected Products","Tambahkan Produk yang Dipilih",module,Magento_Bundle
@@ -3905,6 +3930,7 @@ Allow,Mengizinkan,module,Magento_Integration
 Done,Selesai,module,Magento_Integration
 "Sorry, something went wrong.","Maaf, ada yang tidak beres.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Maaf, ada yang tidak beres. Silakan coba lagi nanti.",module,Magento_Paypal
+"Gift Options for ","Pilihan Hadiah untuk ",module,Magento_Sales
 "Add Products","Tambah Produk",module,Magento_Sales
 Ok,Baik,module,Magento_Sales
 "We don't recognize this file extension.","Kami tidak mengenali ekstensi file ini.",module,Magento_Theme
@@ -3926,6 +3952,10 @@ Advanced,Maju,module,Magento_Backend
 Design,Desain,module,Magento_Backend
 "Design Theme","Tema Desain",module,Magento_Backend
 "User-Agent Exceptions","Pengecualian Pengguna-Agen",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","
+String pencarian adalah string biasa atau pengecualian reguler (PCRE). Mereka cocok dengan urutan yang sama seperti yang telah dimasukkan. Contoh: <br/><span style = ""font-family: monospace"">Firefox<br />/^mozilla/i</span>                    ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","Temukan string di kepala pengguna-agen klien dan beralih ke tema desain khusus untuk peramban itu.",module,Magento_Backend
 Pagination,Penomoran,module,Magento_Backend
 "Pagination Frame","Paginasi Bingkai",module,Magento_Backend
@@ -4004,6 +4034,10 @@ Security,Keamanan,module,Magento_Backend
 "Enable Charts","Aktifkan Grafik",module,Magento_Backend
 "Url Options","Pilihan Url",module,Magento_Backend
 "Add Store Code to Urls","Tambahkan Kode Store ke Url",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color: red"">Peringatan!</strong> Saat menggunakan Kode Store di URL, dalam beberapa kasus sistem mungkin tidak berfungsi dengan baik jika URL tanpa Kode Simpan ditentukan dalam layanan pihak ketiga (misalnya PayPal dll.).                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Auto-redirect ke Base URL",module,Magento_Backend
 "Search Engine Optimization","Optimisasi Mesin Pencari",module,Magento_Backend
 "Use Web Server Rewrites","Gunakan Rewrite Server Web",module,Magento_Backend
@@ -4082,6 +4116,10 @@ Forms,Bentuk,module,Magento_Captcha
 "Number of Symbols","Jumlah Simbol",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Harap tentukan 8 simbol paling banyak. Rentang yang diizinkan (misalnya 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Simbol yang Digunakan di CAPTCHA",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Harap gunakan hanya huruf (a-z atau A-Z) atau angka (0-9) di bidang ini. Tidak ada spasi atau karakter lain yang diperbolehkan.<br /> Karakter mirip yang terlihat (mis. ""I"", ""l"", ""1"") mengurangi kemungkinan pengakuan yang benar oleh pelanggan.                    ",module,Magento_Captcha
 "Case Sensitive","Hal - hal sensitif",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Aktifkan CAPTCHA di etalase",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA untuk formulir ""Buat pengguna"" dan ""Lupa kata sandi"" selalu diaktifkan jika dipilih.",module,Magento_Captcha
@@ -4094,6 +4132,10 @@ Inventory,Investaris,module,Magento_CatalogInventory
 "Only X left Threshold","Hanya X yang meninggalkan ambang batas",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Tampilkan ketersediaan produk di stok di etalase.",module,Magento_CatalogInventory
 "Product Stock Options","Opsi Stok Produk",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+Harap perhatikan bahwa setelan ini berlaku untuk setiap item dalam keranjang, bukan ke seluruh keranjang.                ",module,Magento_CatalogInventory
 "Manage Stock","Kelola persedian",module,Magento_CatalogInventory
 Backorders,"Garis belakang",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Maksimum Qty Diizinkan di Keranjang Belanja",module,Magento_CatalogInventory
@@ -4245,6 +4287,7 @@ Contacts,Kontak,module,Magento_Contact
 "Email Template","Template Email",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Scheduled Tasks) - semua waktu dalam hitungan menit",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","Untuk URL yang benar yang dihasilkan selama pengoperasian cron, pastikan Web> Secure dan Unsecure Base URLs secara eksplisit ditetapkan.",module,Magento_Cron
+"Cron configuration options for group: ","Opsi konfigurasi Cron untuk grup: ",module,Magento_Cron
 "Generate Schedules Every","Buat Setiap Jadwal",module,Magento_Cron
 "Schedule Ahead for","Jadwal ke depan untuk",module,Magento_Cron
 "Missed if Not Run Within","Terjawab jika Tidak Dijalankan",module,Magento_Cron
@@ -4342,6 +4385,11 @@ Size,Ukuran,module,Magento_Dhl
 "Currency Setup","Penyiapan Mata Uang",module,Magento_Directory
 "Currency Options","Opsi Mata Uang",module,Magento_Directory
 "Base Currency","Mata uang dasar",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+                        Mata uang dasar digunakan untuk semua transaksi pembayaran online. Lingkup mata uang dasar ditentukan oleh cakupan harga katalog (""Katalog"" > ""Harga"" > ""Katalog Cakupan Harga"").
+                    ",module,Magento_Directory
 "Default Display Currency","Mata Uang tampilan Default",module,Magento_Directory
 "Allowed Currencies","Mata uang yang dibolehkan",module,Magento_Directory
 "Connection Timeout in Seconds","Waktu Sambungan dalam Detik",module,Magento_Directory
@@ -4522,12 +4570,18 @@ Import,Impor,module,Magento_OfflineShipping
 "Backend port","Port backend",module,Magento_PageCache
 "Specify backend port for config file generation. If field is empty default value 8080 will be saved.","Tentukan port backend untuk generasi file konfigurasi. Jika field kosong maka nilai default 8080 akan tersimpan.",module,Magento_PageCache
 "TTL for public content","TTL untuk konten publik",module,Magento_PageCache
+"Public content cache lifetime in seconds. If field is empty default value 86400 will be saved. ","Masa pakai cache konten publik dalam hitungan detik. Jika field kosong maka nilai default 86400 akan tersimpan. ",module,Magento_PageCache
 "Page Cache","Halaman cache",module,Magento_PageCache
 "Full page caching.","Caching halaman penuh.",module,Magento_PageCache
 "Payment Methods","Cara Pembayaran",module,Magento_Payment
 "Merchant Location","Lokasi merchant",module,Magento_Paypal
 "Merchant Country","Pedagang negara",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Jika tidak ditentukan, Default Country dari General Config akan digunakan",module,Magento_Paypal
+"
+                    PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
+                ","                    Solusi Pembayaran All-in-One PayPal&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>
+                
+",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Pilih solusi pembayaran paket yang aman untuk bisnis Anda.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Pembayaran Pro dan Checkout Ekspres",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Setelan dasar - pembayaran PayPal Pro",module,Magento_Paypal
@@ -4724,7 +4778,16 @@ General,Umum,module,Magento_Sales
 "Allow Reorder","Izinkan Susun Ulang",module,Magento_Sales
 "Invoice and Packing Slip Design","Faktur dan desain slip kemasan",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Logo untuk PDF Print-outs (200x50)",module,Magento_Sales
+"
+                        Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.
+                    ","
+                        Logo default Anda akan digunakan dalam dokumen PDF dan HTML.<br />(jpeg, tiff, png) Jika gambar pdf Anda terdistorsi, cobalah untuk menggunakan gambar ukuran-file yang lebih besar.
+                    ",module,Magento_Sales
 "Logo for HTML Print View","Logo untuk HTML Print View",module,Magento_Sales
+"
+                        Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)
+                    ","
+Logo untuk Dokumen HTML saja. Jika kosong, default akan digunakan.<br />(jpeg, gif, png)                    ",module,Magento_Sales
 Address,Alamat,module,Magento_Sales
 "Minimum Order Amount","Jumlah Minimum Pesanan",module,Magento_Sales
 Enable,Aktifkan,module,Magento_Sales
@@ -4950,6 +5013,7 @@ Edit,Sunting,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","Kami akan menonaktifkan fitur ini jika nilainya kosong.",module,Magento_User
 "Lockout Time (minutes)","Waktu penguncian (menit)",module,Magento_User
 "Password Lifetime (days)","Sandi seumur hidup (hari)",module,Magento_User
+"We will disable this feature if the value is empty. ","Kami akan menonaktifkan fitur ini jika nilainya kosong. ",module,Magento_User
 "Password Change","Perubahan kata sandi",module,Magento_User
 Username,"Nama pengguna",module,Magento_User
 "Last login","Login terakhir",module,Magento_User
@@ -5014,4 +5078,3 @@ Action,Tindakan,module,Magento_Wishlist
 Configure,Konfigurasikan,module,Magento_Wishlist
 Delete,Menghapus,module,Magento_Wishlist
 "Product Details and Comment","Detail Produk dan Komentar",module,Magento_Wishlist
-Summary,Ringkasan,theme,frontend/Magento/blank
